@@ -13,6 +13,9 @@ body {
     text-align: center;
   }
   
+  .navigation {
+    text-align: center;
+  }
   .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
@@ -21,7 +24,7 @@ body {
   }
   
   #banner {
-    background-image: url(C:\Programming\Recipe\cooking\baking.jpg);
+    background-image: url('../cooking/beach.jpg');
     background-size: cover;
     height: 300px;
     width: 100%;
