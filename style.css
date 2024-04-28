@@ -1,115 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
 body {
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  footer {
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+footer {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-  nav {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    font: 120% system-ui;
-    text-align: center;
-    padding: 2rem 1rem;
-  }
+nav {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  font: 120% system-ui;
+  text-align: center;
+  padding: 2rem 1rem;
+}
 
-  ul {
-    list-style-type: none;
-  }
+ul {
+  list-style-type: none;
+}
 
-  a {
-    color: black;
-    text-decoration:none;
-  }
+a {
+  color: black;
+  text-decoration:none;
+}
 
-  a:hover {
-    font-weight: 900;
-  }
-  
-  .checkbox {
-    text-align: left;
-    padding-left: 40%;
-  }
+a:hover {
+  font-weight: 900;
+}
 
-  .navigation {
-    text-align: center;
-  }
-  .navigation li {
-    font-weight: 100;
-    letter-spacing: 2px;
-    padding: 20px;
-    display: inline-block
-  }
-  
-  #banner {
-    background-image: url('../cooking/beach.jpg');
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-  }
-  
-  #banner .content h1 {
-    position: relative;
-    top: 50px;
-    width: 50%;
-    margin: 0 auto;
-  }
-  
-  #main {
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-    width: 80%;
-    overflow: auto;
-  }
+.checkbox {
+  text-align: left;
+  padding-left: 40%;
+}
 
-  #home {
-    text-align: center;
-  }
-  
-  h1 {
-    color: black;
-    font-size: 42px;
-    font-weight: 600;
-    text-align: center;
-  }
-  
-  h2 {
-    border: 1px dotted red;
-    color: red;
-    font-size: 14px;
-    line-height: 48px;
-    padding: 20px 30px;
-    margin: 30px 20px;
-    text-align: center;
-  }
-  
-  h3 {
-    color: black;
-    font-size: 26px;
-    font-weight: 700;
-    padding: 20px 10px;
-  }
-  
-  p {
-    color: grey;
-    font-size: 16px;
-    line-height: 48px;
-    margin-top: 10px;
-    padding: 10px 20px;
-  }
-  
-  .pull-quote {
-    margin: 0 auto;
-    width: 400px;
-  }
-  
+.topnav {
+  text-align: center;
+}
+.topnav li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  display: inline-block
+}
+
+#banner {
+  background-image: url('../cooking/beach.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 70%;
+}
+
+#banner .content h1 {
+  position: relative;
+  top: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  overflow: auto;
+}
+
+#home {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.pull-quote {
+  margin: 0 auto;
+  width: 400px;
+}
